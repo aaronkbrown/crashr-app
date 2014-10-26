@@ -41,7 +41,7 @@ $( document ).ready(function() {
 	function next_image(){
     var oEvent;
     var nEvents;
-    $.getJSON("../json/data.json", function(results){
+    $.getJSON("data.json", function(results){
       nEvents = results.events.length;
       counter = Math.floor(Math.random() * nEvents);
       oEvent = results.events[counter];

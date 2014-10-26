@@ -139,3 +139,7 @@ span {
     max-width: 90%;
 }
 
+#no_img, #yes_img {
+    width: 25%;
+}
+
