@@ -135,3 +135,7 @@ span {
 	height: 1em;
 }
 
+#profile_img {
+    max-width: 90%;
+}
+
