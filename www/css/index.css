@@ -137,9 +137,17 @@ span {
 
 #profile_img {
     max-width: 90%;
+    max-height: 400px;
 }
 
 #no_img, #yes_img {
     width: 25%;
+}
+
+#no_img {
+    float: left;
+}
+#yes_img {
+    float: right;
 }
 
