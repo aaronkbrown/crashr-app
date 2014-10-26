@@ -113,3 +113,32 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+#no_img {
+	width:200px;
+}
+
+#yes_img {
+	width:200px;
+}
+
+span {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+#eventName {
+	height: 1em;
+}
+
+#eventDescription {
+	height: 2em;
+}
+
+#eventLocation, #eventDate {
+	width: 50%;
+	float: left;
+	height: 1em;
+}
+
